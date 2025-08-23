@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\entities\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\entities\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\dtos\\alumnodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\dtos\\alumnodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\entities\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\entities\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\entities\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\entities\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\entities\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\entities\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\entities\\correo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|c:\\users\\jose carlos lanchipa\\source\\repos\\alumnos-app\\backend\\alumnos.api\\entities\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57441551-8B85-4BF9-ADC1-8E7E10AEABCC}|Alumnos.Api\\Alumnos.Api.csproj|solutionrelative:alumnos.api\\entities\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Alumnos.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\appsettings.json",
+              "RelativeToolTip": "Alumnos.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-23T16:12:17.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Alumnos.Api\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T16:05:29.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlumnoDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Dtos\\AlumnoDtos.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Dtos\\AlumnoDtos.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Dtos\\AlumnoDtos.cs",
+              "RelativeToolTip": "Alumnos.Api\\Dtos\\AlumnoDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T16:04:59.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Alumnos.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawBcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:57:18.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Region.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Entities\\Region.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Region.cs",
+              "RelativeToolTip": "Alumnos.Api\\Entities\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:56:35.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pais.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Pais.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Entities\\Pais.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Pais.cs",
+              "RelativeToolTip": "Alumnos.Api\\Entities\\Pais.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:56:02.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Telefono.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Telefono.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Entities\\Telefono.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Telefono.cs",
+              "RelativeToolTip": "Alumnos.Api\\Entities\\Telefono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:54:35.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Program.cs",
+              "RelativeToolTip": "Alumnos.Api\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:46:05.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipoDocumento.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\TipoDocumento.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Entities\\TipoDocumento.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\TipoDocumento.cs",
+              "RelativeToolTip": "Alumnos.Api\\Entities\\TipoDocumento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:55:16.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Correo.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Correo.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Entities\\Correo.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Correo.cs",
+              "RelativeToolTip": "Alumnos.Api\\Entities\\Correo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:54:04.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Alumno.cs",
+              "RelativeDocumentMoniker": "Alumnos.Api\\Entities\\Alumno.cs",
+              "ToolTip": "C:\\Users\\Jose Carlos Lanchipa\\source\\repos\\alumnos-app\\backend\\Alumnos.Api\\Entities\\Alumno.cs",
+              "RelativeToolTip": "Alumnos.Api\\Entities\\Alumno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:53:11.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

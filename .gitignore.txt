@@ -1,0 +1,47 @@
+# --- Windows/OS ---
+Thumbs.db
+.DS_Store
+
+# --- VS / .NET ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[TestResults]/
+*.nupkg
+*.snupkg
+
+# --- Rider/JetBrains ---
+.idea/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- ASP.NET secrets (no commitear secretos) ---
+**/appsettings.*.local.json
+**/appsettings.Local.json
+**/secrets.json
+
+# Si decides NO versionar appsettings.json, descomenta:
+# **/appsettings.json
+
+# --- Node/Angular ---
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Variables locales de front
+.env
+.env.* 
+src/environments/environment.local.ts
+
+# --- Editor ---
+.vscode/*
+!.vscode/extensions.json
