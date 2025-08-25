@@ -6,4 +6,3 @@ public class Pais
     public string Nombre { get; set; } = null!;
     public List<Region> Regiones { get; set; } = new();
 }
-

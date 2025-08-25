@@ -59,7 +59,7 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
-// CORS b·sico (ajusta origin del frontend luego)
+app.MapGet("/api/alumnos", async (AppDbContext db, IMapper mapper, [FromQuery] int page = 1, [FromQuery] int pageSize = 20) =>
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("ui", p => p
@@ -79,7 +79,7 @@ app.UseSwaggerUI();
 
 app.MapGet("/", () => Results.Ok("Alumnos API v1"));
 
-// GET: listado con paginado b·sico
+// GET: listado con paginado b√°sico
 app.MapGet("/api/alumnos", async ([FromQuery] int page = 1, [FromQuery] int pageSize = 20, AppDbContext db, IMapper mapper) =>
 {
     page = Math.Max(1, page);
@@ -130,11 +130,11 @@ app.MapPost("/api/alumnos", async ([FromBody] AlumnoCreateUpdateDto dto, AppDbCo
 
     // Validar FK existentes
     if (!await db.TiposDocumento.AnyAsync(x => x.Id == dto.TipoDocumentoId))
-        return Results.BadRequest(new { errors = new[] { "TipoDocumentoId inv·lido." } });
+        return Results.BadRequest(new { errors = new[] { "TipoDocumentoId inv√°lido." } });
     if (!await db.Paises.AnyAsync(x => x.Id == dto.PaisId))
-        return Results.BadRequest(new { errors = new[] { "PaisId inv·lido." } });
+        return Results.BadRequest(new { errors = new[] { "PaisId inv√°lido." } });
     if (!await db.Regiones.AnyAsync(x => x.Id == dto.RegionId))
-        return Results.BadRequest(new { errors = new[] { "RegionId inv·lido." } });
+        return Results.BadRequest(new { errors = new[] { "RegionId inv√°lido." } });
 
     var alumno = mapper.Map<Alumno>(dto);
     db.Alumnos.Add(alumno);
@@ -159,11 +159,11 @@ app.MapPut("/api/alumnos/{id:int}", async (int id, [FromBody] AlumnoCreateUpdate
 
     // validar FKs
     if (!await db.TiposDocumento.AnyAsync(x => x.Id == dto.TipoDocumentoId))
-        return Results.BadRequest(new { errors = new[] { "TipoDocumentoId inv·lido." } });
+        return Results.BadRequest(new { errors = new[] { "TipoDocumentoId inv√°lido." } });
     if (!await db.Paises.AnyAsync(x => x.Id == dto.PaisId))
-        return Results.BadRequest(new { errors = new[] { "PaisId inv·lido." } });
+        return Results.BadRequest(new { errors = new[] { "PaisId inv√°lido." } });
     if (!await db.Regiones.AnyAsync(x => x.Id == dto.RegionId))
-        return Results.BadRequest(new { errors = new[] { "RegionId inv·lido." } });
+        return Results.BadRequest(new { errors = new[] { "RegionId inv√°lido." } });
 
     // actualizar campos simples
     alumno.Nombres = dto.Nombres;
@@ -185,7 +185,7 @@ app.MapPut("/api/alumnos/{id:int}", async (int id, [FromBody] AlumnoCreateUpdate
 })
 .WithName("UpdateAlumno");
 
-// DELETE: eliminaciÛn
+app.MapGet("/api/regiones", async (AppDbContext db, [FromQuery] int? paisId) =>
 app.MapDelete("/api/alumnos/{id:int}", async (int id, AppDbContext db) =>
 {
     var alumno = await db.Alumnos.FindAsync(id);
@@ -197,7 +197,7 @@ app.MapDelete("/api/alumnos/{id:int}", async (int id, AppDbContext db) =>
 })
 .WithName("DeleteAlumno");
 
-// Cat·logos
+// Cat√°logos
 app.MapGet("/api/tipos-documento", async (AppDbContext db) =>
     Results.Ok(await db.TiposDocumento.AsNoTracking().OrderBy(x => x.Id).ToListAsync()));
 
@@ -220,22 +220,22 @@ static List<string> ValidateAlumnoDto(AlumnoCreateUpdateDto dto)
     if (string.IsNullOrWhiteSpace(dto.Apellidos)) errors.Add("Apellidos es obligatorio.");
     if (string.IsNullOrWhiteSpace(dto.NumeroDocumento)) errors.Add("NumeroDocumento es obligatorio.");
 
-    // emails v·lidos y al menos uno
+    // emails v√°lidos y al menos uno
     if (dto.Correos is null || dto.Correos.Count == 0) errors.Add("Debe incluir al menos un correo.");
     else
     {
         var rx = new Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$");
         if (dto.Correos.Any(c => string.IsNullOrWhiteSpace(c.Email) || !rx.IsMatch(c.Email)))
-            errors.Add("Formato de correo inv·lido.");
+            errors.Add("Formato de correo inv√°lido.");
     }
 
-    // telÈfonos v·lidos y al menos uno (solo dÌgitos, + y espacios mÌnimos)
-    if (dto.Telefonos is null || dto.Telefonos.Count == 0) errors.Add("Debe incluir al menos un n˙mero mÛvil.");
+    // tel√©fonos v√°lidos y al menos uno (solo d√≠gitos, + y espacios m√≠nimos)
+    if (dto.Telefonos is null || dto.Telefonos.Count == 0) errors.Add("Debe incluir al menos un n√∫mero m√≥vil.");
     else
     {
         var rxTel = new Regex(@"^[0-9+()\-\s]{6,20}$");
         if (dto.Telefonos.Any(t => string.IsNullOrWhiteSpace(t.Numero) || !rxTel.IsMatch(t.Numero)))
-            errors.Add("Formato de n˙mero mÛvil inv·lido.");
+            errors.Add("Formato de n√∫mero m√≥vil inv√°lido.");
     }
 
     // fecha razonable (>= 1900 y no futuro)

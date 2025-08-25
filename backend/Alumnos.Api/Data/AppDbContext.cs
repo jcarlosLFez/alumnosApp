@@ -1,4 +1,4 @@
-﻿using Alumnos.Api.Entities;
+using Alumnos.Api.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Alumnos.Api.Data;
@@ -19,11 +19,19 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             e.Property(p => p.Nombres).IsRequired().HasMaxLength(100);
             e.Property(p => p.Apellidos).IsRequired().HasMaxLength(100);
             e.Property(p => p.NumeroDocumento).IsRequired().HasMaxLength(30);
-            e.HasOne(x => x.TipoDocumento).WithMany(x => x.Alumnos).HasForeignKey(x => x.TipoDocumentoId).OnDelete(DeleteBehavior.Restrict);
-            e.HasOne(x => x.Pais).WithMany().HasForeignKey(x => x.PaisId).OnDelete(DeleteBehavior.Restrict);
-            e.HasOne(x => x.Region).WithMany(r => r.Alumnos).HasForeignKey(x => x.RegionId).OnDelete(DeleteBehavior.Restrict);
-            e.HasMany(x => x.Correos).WithOne(c => c.Alumno).HasForeignKey(c => c.AlumnoId);
-            e.HasMany(x => x.Telefonos).WithOne(t => t.Alumno).HasForeignKey(t => t.AlumnoId);
+            e.HasOne(x => x.TipoDocumento).WithMany(x => x.Alumnos)
+                .HasForeignKey(x => x.TipoDocumentoId)
+                .OnDelete(DeleteBehavior.Restrict);
+            e.HasOne(x => x.Pais).WithMany()
+                .HasForeignKey(x => x.PaisId)
+                .OnDelete(DeleteBehavior.Restrict);
+            e.HasOne(x => x.Region).WithMany(r => r.Alumnos)
+                .HasForeignKey(x => x.RegionId)
+                .OnDelete(DeleteBehavior.Restrict);
+            e.HasMany(x => x.Correos).WithOne(c => c.Alumno)
+                .HasForeignKey(c => c.AlumnoId);
+            e.HasMany(x => x.Telefonos).WithOne(t => t.Alumno)
+                .HasForeignKey(t => t.AlumnoId);
         });
 
         modelBuilder.Entity<Correo>(e =>
